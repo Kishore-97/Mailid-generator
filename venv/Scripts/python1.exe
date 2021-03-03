@@ -1,0 +1,13 @@
+
+import math
+cp=float(input("Enter the value for cp....."))
+cv=float(input("Enter the value for cv....."))
+t1=float(input("Enter the value for t1....."))
+t2=float(input("Enter the value for t2....."))
+t3=float(input("Enter the value for t3....."))
+t4=float(input("Enter the value for t4....."))
+q23=cp*(t3-t2)
+q41=cv*(t4-t1)
+w=q23-q41
+efficiency=(w/q23)*100
+print("The efficiency % is.....",efficiency)

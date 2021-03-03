@@ -7,6 +7,7 @@ def rand_email_id(l):
         s=s+l[random.randint(0,25)]
     for k in range(3):
         n=random.randint(0,9)
-        s=s+
+        s=s+str(n)
     return (s+"@gmail.com")
+print(rand_email_id(letters))
 
